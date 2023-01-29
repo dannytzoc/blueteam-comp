@@ -19,6 +19,9 @@ echo "fs.protected_symlinks = 1" >> $file
 echo "fs.suid_dumpable = 0" >> $file
 sysctl -p >/dev/null
 
+# t he -p option allows you to load the settings from a configuration file When no file is given, sysctl reads the /etc/sysctl.conf file.
+
+
 # disable kernel module insertion? (risky)
 #/sbin/sysctl -w kernel.modules_disabled=1
 
