@@ -1,4 +1,4 @@
-# PHPINFO 
+# php.ini 
 
 1. Add the following string in order to disable the insecure functions:
 
