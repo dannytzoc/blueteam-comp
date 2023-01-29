@@ -1,5 +1,5 @@
 # got it from https://raw.githubusercontent.com/DSU-DefSec/ace/master/linux/php.sh
-# used 
+# more info on php.ini https://github.com/danehrlich1/very-secure-php-ini 
 # Secure php.ini files
 
 for ini in $(find / -name "php.ini" 2>/dev/null); do
