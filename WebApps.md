@@ -79,3 +79,4 @@ Enable SQL safe mode
 ```
 sql.safe_mode = On
 ```
+More info here https://www.php.net/manual/en/session.security.ini.php
