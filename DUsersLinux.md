@@ -1,9 +1,9 @@
 ## CentOS
 ```
-root	0	0	/root	/bin/bash
-bin	1	1	/bin	/sbin/nologin
-daemon	2	2	/sbin	/sbin/nologin
-adm	3	4	/var/adm	/sbin/nologin
+root 0  0	/root	/bin/bash
+bin	1	1	 /bin	/sbin/nologin
+daemon 2	2	 /sbin	/sbin/nologin
+adm	 3	4	 /var/adm	/sbin/nologin
 lp	4	7	/var/spool/lpd	/sbin/nologin
 sync	5	0	/sbin	/bin/sync
 shutdown	6	0	/sbin	/sbin/shutdown
